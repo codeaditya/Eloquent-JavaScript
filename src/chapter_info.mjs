@@ -107,7 +107,7 @@ for (let file of fs.readdirSync(".").sort()) {
     {name: "A public space on the web",
      file: "code/solutions/20_3_a_public_space_on_the_web.zip",
      number: 3,
-     type: "js",
+     type: "zip",
      code: nodeInfo,
      solution: "// This solutions consists of multiple files. Download it\n// though the link below.\n"
     }
