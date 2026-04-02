@@ -113,7 +113,7 @@ class CodeSandbox {
       })
       visible = "exercise"
       let link = document.querySelector("#download")
-      link.setAttribute("download", "solution" + value + ".js")
+      link.setAttribute("download", "solution" + value + "." + exercise.type)
       if (/\.zip$/.test(exercise.file))
         link.href = "../" + exercise.file
       else
