@@ -461,7 +461,7 @@ This technique is called _polymorphism_. Polymorphic code can work with values o
 
 {{index "forEach method"}}
 
-An example of a widely used interface is that of ((array-like object))s that have a `length` property holding a number and numbered properties for each of their elements. Both arrays and strings support this interface, as do various other objects, some of which we'll see later in the chapters about the browser. Our implementation of `forEach` from [Chapter ?](higher_order) works on anything that provides this interface. In fact, so does `Array.prototype.forEach`.
+An example of a widely used interface is that of ((array-like object))s that have a `length` property holding a number and numbered properties for each of their elements. Both arrays and strings support this interface, as do various other objects, some of which we'll see later in the chapters about the browser. You can call most array methods—such as `Array.prototype.forEach`—on anything that provides this interface.
 
 ```
 Array.prototype.forEach.call({
